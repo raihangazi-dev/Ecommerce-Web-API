@@ -1,16 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8UHtyk63Cjo=",
+  "dgSpecHash": "NZXrz+VDo4I=",
   "success": true,
   "projectFilePath": "E:\\dotnet-learning\\web-api\\Ecommerce-Web-Api\\Ecommerce-Web-Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abul.khayer\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
-    "C:\\Users\\abul.khayer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\abul.khayer\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
-    "C:\\Users\\abul.khayer\\.nuget\\packages\\swashbuckle.aspnetcore\\6.0.7\\swashbuckle.aspnetcore.6.0.7.nupkg.sha512",
-    "C:\\Users\\abul.khayer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.0.7\\swashbuckle.aspnetcore.swagger.6.0.7.nupkg.sha512",
-    "C:\\Users\\abul.khayer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.0.7\\swashbuckle.aspnetcore.swaggergen.6.0.7.nupkg.sha512",
-    "C:\\Users\\abul.khayer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.0.7\\swashbuckle.aspnetcore.swaggerui.6.0.7.nupkg.sha512"
+    "C:\\Users\\abul.khayer\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
 }

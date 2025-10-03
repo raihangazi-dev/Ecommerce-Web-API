@@ -1,37 +1,18 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
 app.UseHttpsRedirection();
-
-if (app.Environment.IsDevelopment())
+var products = new List<Product>() {
+    new Product("Iphone 17 PRO Max", 32000),
+    new Product("Samsung S23 ULTRA PRO", 29000),
+};
+app.MapGet("/Products", () =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.MapGet("/hello", () =>
-{
-    return "Get Method: Hello";
+    return Results.Ok(products);
 });
 
-app.MapGet("/", () =>
-{
-    return "API is Working";
-});
-app.MapPost("/hello", () =>
-{
-    return "POST Method Hello";
-});
-app.MapPut("/hello", () =>
-{
-    return "PUT Method Hello";
-});
-app.MapDelete("/hello", () =>
-{
-    return "DELETE Method Hello";
-});
 
 app.Run();
+
+// DTO
+public record Product(string Name, decimal Price);
