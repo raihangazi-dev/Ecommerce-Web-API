@@ -31,3 +31,6 @@ E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\Ecommerce-Web-Api.
 E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\Ecommerce-Web-Api.genruntimeconfig.cache
 E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\ref\Ecommerce-Web-Api.dll
 E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\Ecommerce-Web-Api.sourcelink.json
+E:\dotnet-learning\web-api\Ecommerce-Web-Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\dotnet-learning\web-api\Ecommerce-Web-Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\dotnet-learning\web-api\Ecommerce-Web-Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
