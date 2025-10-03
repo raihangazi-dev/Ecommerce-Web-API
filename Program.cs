@@ -2,17 +2,32 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 app.UseHttpsRedirection();
-var products = new List<Product>() {
-    new Product("Iphone 17 PRO Max", 32000),
-    new Product("Samsung S23 ULTRA PRO", 29000),
-};
-app.MapGet("/Products", () =>
-{
-    return Results.Ok(products);
-});
 
+List<Category> Categories = new List<Category>();
+
+app.MapPost("/api/Categories", () => {
+    var newCategory = new Category
+    {
+        CategoryId = Guid.NewGuid(),
+        CategoryName = "Phone",
+        Description = "Description of Phone",
+        CreatedAt = DateTime.UtcNow,
+
+    };
+    Categories.Add(newCategory);
+    return Results.Created($"/api/Categories/{newCategory.CategoryId}", newCategory);
+});
+app.MapGet("/api/Categories", () => Results.Ok(Categories));
 
 app.Run();
 
+// CRUD Operation
 // DTO
-public record Product(string Name, decimal Price);
+public record Category
+{
+    public Guid CategoryId { get; set; }
+    public string? CategoryName { get; set; }
+    public string? Description { get; set; }
+    public DateTime CreatedAt { get; set; }
+    
+}
