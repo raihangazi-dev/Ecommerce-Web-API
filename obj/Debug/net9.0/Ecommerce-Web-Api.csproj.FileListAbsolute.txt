@@ -30,3 +30,4 @@ E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\refint\Ecommerce-W
 E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\Ecommerce-Web-Api.pdb
 E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\Ecommerce-Web-Api.genruntimeconfig.cache
 E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\ref\Ecommerce-Web-Api.dll
+E:\dotnet-learning\web-api\Ecommerce-Web-Api\obj\Debug\net9.0\Ecommerce-Web-Api.sourcelink.json
